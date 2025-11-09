@@ -1,20 +1,3 @@
-
-"""
-Convert hdf5 dataset to lerobot format.
-
-Examples:
-```python
-   python merge.py \
-    --sources \
-        /home/kemove/.cache/huggingface/lerobot/realman/data_complex/new_50\
-        /home/kemove/.cache/huggingface/lerobot/realman/grasp_peach_new \
-    --output /home/kemove/.cache/huggingface/lerobot/realman/base_dataset_v2 \
-    --max_dim 32 \
-    --fps 20
-```
-
-"""
-
 import argparse
 import contextlib
 import json
